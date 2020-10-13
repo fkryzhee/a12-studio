@@ -1,1 +1,140 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+}
 
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear : left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 600px 0 350px 0;
+  background-size: cover;
+  color: black;
+  text-align: center;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #1b252f;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  padding: 10px 0;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left h1 {
+  color: #dedede;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.hamburger {
+  color: white;
+  float: right;
+  padding: 15px 0;
+  display: none;
+}
+
+footer {
+  background-color: #1b252f;
+  height: 200px;
+}
+
+.form_text {
+  text-align: left;
+  color: #fff;
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+.form_text h2 {
+  padding-bottom: 15px;
+}
+
+.find-us {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.judul-find-us {
+  font-size: 30px;
+  color: white;
+  font-family: "Arial";
+}
+
+.btn-find-us {
+  margin-top: 25px;
+}
+
+.btn-ig {
+  margin-right: 10px;
+  padding: 8px;
+  color: white;
+  font-family: "Arial";
+}
+
+.btn-facebook {
+  margin-right: 10px;
+  padding: 8px;
+  color: white;
+  font-family: "Arial";
+}
+
+.btn-youtube {
+  margin-right: 10px;
+  padding: 8px;
+  color: white;
+  font-family: "Arial";
+}
+
+.copyright {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  padding: 30px 0;
+}
+
+.copyright p {
+  font-family: "Arial"
+}
